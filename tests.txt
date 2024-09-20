@@ -1,0 +1,83 @@
+
+	"checkCode 1.A ",
+	"true",			
+	//WRITE YOUR TESTS BELOW IN THE SAME FORMAT (USE COPY-AND-PASTE)
+	"checkCode 999.A ",
+	"true",	
+	"checkCode 1000.A ",
+	"false",	
+	"checkCode 0.A ", 
+	"false",
+	//possibilites for the starting integer
+
+
+	"checkCode 1A ",
+	"false",
+	"checkCode .A ",
+	"false",
+	"checkCode A. ",
+	"false",
+	"checkCode .1 ",
+	"false",
+	//possibilites for the period
+
+	"checkCode 1. A ",
+	"false",
+	"checkCode 1.a ",
+	"false",
+	"checkCode 1.A a ",
+	"false",
+	"checkCode 1.A a A ",
+	"false",
+	"checkCode 1.A A a ",
+	"false",
+	"checkCode 1.A A ",
+	"true",
+	"checkCode 1.A A A",
+	"false",
+	"checkCode 1.A A A ",
+	"true",
+	"checkCode 1.a A ",
+	"false",
+	"checkCode 1.a A A ",
+	"false",
+	"checkCode 1.A a a ",
+	"false",
+	"checkCode 1.Andre Andre Andre ",
+	"true",
+	"checkCode 1.andre andre andre ",
+	"false",
+	"checkCode 1. andre andre andre ",
+	"false",
+	"checkCode 1.A A A* ",
+	"false",
+	"checkCode 1.An3re Andre Andre ",
+	"false",
+	"checkCode 1.A3dre A3dre Andre ",
+	"false",
+	"checkCode 1.Andre Andre Andr3 ",
+	"false",
+	//possibilites for the words 	
+
+	"checkCode 1.A",
+	"false",
+	"checkCode 1.A  ",
+	"true",
+	"checkCode 1.A ",
+	"true",
+	//possibilites for the last words space
+
+	"checkCode 1.A A A 12345",
+	"true",
+	"checkCode 1.A A A  12345",
+	"true",	
+	"checkCode 1.A A A 1234",
+	"false",
+	"checkCode 1.A A A12345",
+	"false",
+	"checkCode 1.A A A 123",
+	"false",
+	//possibilites for the final final digits
+
+
+	//DO NOT CHANGE ANYTHING BELOW THIS LINE		
